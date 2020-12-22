@@ -31,6 +31,6 @@ end
 
 def find_a(array)
   array.find_all do |palabras|
-    palabras[0] = "a"
+    palabras[0] == "a"
   end
 end
