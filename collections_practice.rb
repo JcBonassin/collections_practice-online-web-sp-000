@@ -32,4 +32,5 @@ end
 def find_a(array)
   array.select do |palabras|
     palabras[0] = "a"
+  end
 end
